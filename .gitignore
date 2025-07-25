@@ -1,0 +1,79 @@
+# ========== PYTHON ==========
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ========== ENVIRONMENTS ==========
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ========== JUPYTER NOTEBOOK ==========
+
+.ipynb_checkpoints/
+
+# ========== DATA / LOG FILES ==========
+
+# Avoid uploading large CSVs or output files
+*.csv
+*.tsv
+*.log
+*.out
+
+# ========== PYTHON PACKAGING ==========
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========== SYSTEM FILES ==========
+
+.DS_Store
+Thumbs.db
+
+# ========== VSCODE ==========
+
+.vscode/
+*.code-workspace
+
+# ========== COLAB ==========
+
+# When downloading from Google Colab
+*.ipynb (checkpoint).ipynb
+
+# ========== JUPYTER KERNEL METADATA ==========
+
+*.json
+
+# ========== TEST COVERAGE / REPORTS ==========
+
+coverage/
+*.cover
+*.py,cover
+*.log
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# ========== OUTPUT FILES (OPTIONAL) ==========
+
+*.png
+*.pdf
+*.svg
+*.h5
+*.joblib
+*.pkl
+*.npy
+*.npz
