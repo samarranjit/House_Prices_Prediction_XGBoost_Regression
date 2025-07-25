@@ -6,14 +6,14 @@ A complete machine learning pipeline using **XGBoost Regressor** to predict hous
 
 ## 📈 Project Summary
 
-| Category       | Details                                                                                |
-| -------------- | -------------------------------------------------------------------------------------- |
-| 📊 Dataset     | [Boston Housing Dataset (CMU StatLib)](http://lib.stat.cmu.edu/datasets/boston)        |
-| 📌 Goal        | Predict median house value (in \$1000s) using features like crime rate, rooms, and tax |
-| ⚙️ Model       | Gradient Boosted Trees with XGBoost Regressor                                          |
-| 🧪i Evaluation | R² Score, MAE (Mean Absolute Error), Visualizations                                    |
-| 🛠️ Tools       | Python, Pandas, Scikit-learn, XGBoost, Seaborn, Matplotlib                             |
-| 💼 Author      | Samar Ranjit (Undergraduate Research Assistant, Texas State University)                |
+| Category      | Details                                                                                |
+| ------------- | -------------------------------------------------------------------------------------- |
+| 📊 Dataset    | [Boston Housing Dataset (CMU StatLib)](http://lib.stat.cmu.edu/datasets/boston)        |
+| 📌 Goal       | Predict median house value (in \$1000s) using features like crime rate, rooms, and tax |
+| ⚙️ Model      | Gradient Boosted Trees with XGBoost Regressor                                          |
+| 🧪 Evaluation | R² Score, MAE (Mean Absolute Error), Visualizations                                    |
+| 🛠️ Tools      | Python, Pandas, Scikit-learn, XGBoost, Seaborn, Matplotlib                             |
+| 💼 Author     | Samar Ranjit (Undergraduate Research Assistant, Texas State University)                |
 
 ---
 
@@ -121,13 +121,7 @@ pip install -r requirements.txt
 
 ## 📸 Example Visualizations
 
-> You can add a few `.png` screenshots here — such as:
->
-> - Correlation heatmap
-> - XGBoost model predictions vs actual
-> - Residual plots
-
----
+## ![alt text](Assets/ActualVsPredictionScatterPlot.png)
 
 ## 📜 License
 
